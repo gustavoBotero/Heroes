@@ -1,0 +1,29 @@
+{
+  "name": "heroes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/gustavoBotero/heroes.git",
+  "author": "Gustavo Botero <gustavobotero93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "3.10.1",
+    "sass-loader": "^3.1.2",
+    "style-loader": "^0.13.0",
+    "copy-webpack-plugin": "^4.3.1",
+    "html-webpack-plugin": "^2.30.1",
+    "typescript": "^2.7.1",
+    "webpack": "^3.10.0"
+  },
+  "dependencies": {
+    "node-sass": "^4.11.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}
